@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 65452C2D
+P 850 1800
+F 0 "SW?" H 850 2085 50  0000 C CNN
+F 1 "SW_Push" H 850 1994 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 850 2000 50  0001 C CNN
+F 3 "~" H 850 2000 50  0001 C CNN
+	1    850  1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 65452FB1
+P 850 1400
+F 0 "SW?" H 850 1685 50  0000 C CNN
+F 1 "SW_Push" H 850 1594 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 850 1600 50  0001 C CNN
+F 3 "~" H 850 1600 50  0001 C CNN
+	1    850  1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65453782
+P 1500 1500
+F 0 "R?" V 1700 1450 50  0000 L CNN
+F 1 "220Ω" V 1600 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1430 1500 50  0001 C CNN
+F 3 "~" H 1500 1500 50  0001 C CNN
+	1    1500 1500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 65462DFA
+P 650 2000
+F 0 "BT?" H 758 2046 50  0000 L CNN
+F 1 "5V" H 758 1955 50  0000 L CNN
+F 2 "" V 650 2060 50  0001 C CNN
+F 3 "~" V 650 2060 50  0001 C CNN
+	1    650  2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  1800 650  1400
+Connection ~ 650  1800
+$Comp
+L Device:C C?
+U 1 1 6549B00B
+P 1200 1300
+F 0 "C?" V 1450 1250 50  0000 L CNN
+F 1 "0.1uF" V 1350 1200 50  0000 L CNN
+F 2 "" H 1238 1150 50  0001 C CNN
+F 3 "~" H 1200 1300 50  0001 C CNN
+	1    1200 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 654AE85C
+P 3200 1000
+F 0 "D?" H 3193 1217 50  0000 C CNN
+F 1 "LED" H 3193 1126 50  0000 C CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 3200 1000 50  0001 C CNN
+F 3 "~" H 3200 1000 50  0001 C CNN
+	1    3200 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 65459B77
+P 2100 900
+F 0 "U?" H 2100 1225 50  0000 C CNN
+F 1 "74LS08" H 2100 1134 50  0000 C CNN
+F 2 "" H 2100 900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2100 900 50  0001 C CNN
+	2    2100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 1 1 6545827C
+P 2100 1500
+F 0 "U?" H 2100 1825 50  0000 C CNN
+F 1 "74LS08" H 2100 1734 50  0000 C CNN
+F 2 "" H 2100 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 3 1 654559CC
+P 2100 2150
+F 0 "U?" H 2100 2475 50  0000 C CNN
+F 1 "74LS02" H 2100 2384 50  0000 C CNN
+F 2 "" H 2100 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2100 2150 50  0001 C CNN
+	3    2100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 2 1 65454894
+P 2700 1000
+F 0 "U?" H 2700 1325 50  0000 C CNN
+F 1 "74LS02" H 2700 1234 50  0000 C CNN
+F 2 "" H 2700 1000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2700 1000 50  0001 C CNN
+	2    2700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 1 1 65453DD5
+P 2700 1600
+F 0 "U?" H 2700 1925 50  0000 C CNN
+F 1 "74LS02" H 2700 1834 50  0000 C CNN
+F 2 "" H 2700 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2700 1600 50  0001 C CNN
+	1    2700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 654AECB4
+P 1200 1500
+F 0 "D?" H 1193 1717 50  0000 C CNN
+F 1 "LED" H 1193 1626 50  0000 C CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 1200 1500 50  0001 C CNN
+F 3 "~" H 1200 1500 50  0001 C CNN
+	1    1200 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 1300 1050 1400
+Connection ~ 1050 1400
+Wire Wire Line
+	1050 1400 1050 1500
+Wire Wire Line
+	1650 1500 1650 1800
+Wire Wire Line
+	1650 2200 650  2200
+Wire Wire Line
+	1350 1300 1650 1300
+Wire Wire Line
+	1650 1300 1650 1500
+Connection ~ 1650 1500
+$Comp
+L Device:R R?
+U 1 1 655292A9
+P 1500 1800
+F 0 "R?" V 1700 1750 50  0000 L CNN
+F 1 "220Ω" V 1600 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1430 1800 50  0001 C CNN
+F 3 "~" H 1500 1800 50  0001 C CNN
+	1    1500 1800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 655292AF
+P 1200 1800
+F 0 "D?" H 1193 2017 50  0000 C CNN
+F 1 "LED" H 1193 1926 50  0000 C CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 1200 1800 50  0001 C CNN
+F 3 "~" H 1200 1800 50  0001 C CNN
+	1    1200 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6552FAC4
+P 3500 1000
+F 0 "R?" V 3700 950 50  0000 L CNN
+F 1 "220Ω" V 3600 900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3430 1000 50  0001 C CNN
+F 3 "~" H 3500 1000 50  0001 C CNN
+	1    3500 1000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1050 1800 1050 2050
+Wire Wire Line
+	1050 2050 1700 2050
+Connection ~ 1050 1800
+Wire Wire Line
+	1800 2250 1800 2050
+Connection ~ 1800 2050
+Wire Wire Line
+	2400 2150 2400 1950
+Wire Wire Line
+	2400 1950 1800 1950
+Wire Wire Line
+	1050 1300 1050 1200
+Wire Wire Line
+	1050 1200 1800 1200
+Wire Wire Line
+	1800 1200 1800 1400
+Connection ~ 1050 1300
+Connection ~ 1050 1200
+Wire Wire Line
+	1700 2050 1700 1000
+Connection ~ 1700 2050
+Wire Wire Line
+	1700 2050 1800 2050
+Wire Wire Line
+	1700 1000 1800 1000
+Wire Wire Line
+	1050 800  1050 1200
+Wire Wire Line
+	1050 800  1800 800 
+Wire Wire Line
+	3000 1600 3000 1200
+Wire Wire Line
+	3000 1200 2400 1200
+Wire Wire Line
+	2400 1200 2400 1100
+Wire Wire Line
+	3000 1000 3050 1000
+Wire Wire Line
+	3050 1000 3050 1800
+Wire Wire Line
+	3050 1800 2400 1800
+Wire Wire Line
+	2400 1800 2400 1700
+Wire Wire Line
+	1800 1600 1800 1950
+Connection ~ 3050 1000
+Wire Wire Line
+	3650 1000 3650 2350
+Wire Wire Line
+	3650 2350 1650 2350
+Wire Wire Line
+	1650 2350 1650 2200
+Connection ~ 1650 2200
+Connection ~ 1650 1800
+Wire Wire Line
+	1650 1800 1650 2200
+$EndSCHEMATC

@@ -1,0 +1,206 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push SW?
+U 1 1 65452C2D
+P 2200 3050
+F 0 "SW?" H 2200 3335 50  0000 C CNN
+F 1 "SW_Push" H 2200 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2200 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 65452FB1
+P 2200 2650
+F 0 "SW?" H 2200 2935 50  0000 C CNN
+F 1 "SW_Push" H 2200 2844 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 2200 2850 50  0001 C CNN
+F 3 "~" H 2200 2850 50  0001 C CNN
+	1    2200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 654531F8
+P 2600 4650
+F 0 "R?" H 2670 4696 50  0000 L CNN
+F 1 "220Ω" H 2670 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2530 4650 50  0001 C CNN
+F 3 "~" H 2600 4650 50  0001 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65453782
+P 2200 4700
+F 0 "R?" H 2270 4746 50  0000 L CNN
+F 1 "220Ω" H 2270 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2130 4700 50  0001 C CNN
+F 3 "~" H 2200 4700 50  0001 C CNN
+	1    2200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery BT?
+U 1 1 65462DFA
+P 2000 3250
+F 0 "BT?" H 2108 3296 50  0000 L CNN
+F 1 "5V" H 2108 3205 50  0000 L CNN
+F 2 "" V 2000 3310 50  0001 C CNN
+F 3 "~" V 2000 3310 50  0001 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3050 2000 2650
+Connection ~ 2000 3050
+$Comp
+L Device:C C?
+U 1 1 6549B00B
+P 2550 2650
+F 0 "C?" V 2800 2600 50  0000 L CNN
+F 1 "0.1uF" V 2700 2550 50  0000 L CNN
+F 2 "" H 2588 2500 50  0001 C CNN
+F 3 "~" H 2550 2650 50  0001 C CNN
+	1    2550 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 654AC971
+P 3100 4000
+F 0 "D?" H 3093 4217 50  0000 C CNN
+F 1 "LED" H 3093 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 3100 4000 50  0001 C CNN
+F 3 "~" H 3100 4000 50  0001 C CNN
+	1    3100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 654AE85C
+P 2400 4050
+F 0 "D?" H 2393 4267 50  0000 C CNN
+F 1 "LED" H 2393 4176 50  0000 C CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 2400 4050 50  0001 C CNN
+F 3 "~" H 2400 4050 50  0001 C CNN
+	1    2400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 5 1 6545BC2B
+P 3650 6400
+F 0 "U?" H 3880 6446 50  0000 L CNN
+F 1 "74LS08" H 3880 6355 50  0000 L CNN
+F 2 "" H 3650 6400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3650 6400 50  0001 C CNN
+	5    3650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 65459B77
+P 2850 6250
+F 0 "U?" H 2850 6575 50  0000 C CNN
+F 1 "74LS08" H 2850 6484 50  0000 C CNN
+F 2 "" H 2850 6250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2850 6250 50  0001 C CNN
+	2    2850 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U?
+U 1 1 6545827C
+P 2050 6200
+F 0 "U?" H 2050 6525 50  0000 C CNN
+F 1 "74LS08" H 2050 6434 50  0000 C CNN
+F 2 "" H 2050 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 2050 6200 50  0001 C CNN
+	1    2050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 3 1 654559CC
+P 3650 5650
+F 0 "U?" H 3650 5975 50  0000 C CNN
+F 1 "74LS02" H 3650 5884 50  0000 C CNN
+F 2 "" H 3650 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 3650 5650 50  0001 C CNN
+	3    3650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 2 1 65454894
+P 2900 5650
+F 0 "U?" H 2900 5975 50  0000 C CNN
+F 1 "74LS02" H 2900 5884 50  0000 C CNN
+F 2 "" H 2900 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2900 5650 50  0001 C CNN
+	2    2900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 1 1 65453DD5
+P 2150 5600
+F 0 "U?" H 2150 5925 50  0000 C CNN
+F 1 "74LS02" H 2150 5834 50  0000 C CNN
+F 2 "" H 2150 5600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2150 5600 50  0001 C CNN
+	1    2150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U?
+U 5 1 654566B3
+P 1600 4650
+F 0 "U?" H 1830 4696 50  0000 L CNN
+F 1 "74LS02" H 1830 4605 50  0000 L CNN
+F 2 "" H 1600 4650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1600 4650 50  0001 C CNN
+	5    1600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 654538F0
+P 3000 4700
+F 0 "R?" H 3070 4746 50  0000 L CNN
+F 1 "1kΩ" H 3070 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2930 4700 50  0001 C CNN
+F 3 "~" H 3000 4700 50  0001 C CNN
+	1    3000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 654AECB4
+P 3650 4100
+F 0 "D?" H 3643 4317 50  0000 C CNN
+F 1 "LED" H 3643 4226 50  0000 C CNN
+F 2 "LED_SMD:LED_0201_0603Metric" H 3650 4100 50  0001 C CNN
+F 3 "~" H 3650 4100 50  0001 C CNN
+	1    3650 4100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
